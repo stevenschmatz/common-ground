@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB29E6F1FE06D6D00C0F662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB29E6E1FE06D6D00C0F662 /* AppDelegate.swift */; };
+		0EB29E711FE06D6D00C0F662 /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB29E701FE06D6D00C0F662 /* FaceDetectionViewController.swift */; };
+		0EB29E761FE06D6D00C0F662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EB29E751FE06D6D00C0F662 /* Assets.xcassets */; };
+		0EB29E791FE06D6D00C0F662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB29E771FE06D6D00C0F662 /* LaunchScreen.storyboard */; };
+		28A21A762099AA15006D7A74 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A21A752099AA15006D7A74 /* MapViewController.swift */; };
+		28A4D311209A0D1C005FBD9F /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A4D310209A0D1C005FBD9F /* IntroViewController.swift */; };
+		28C94EF52099B1CA00E1E868 /* KGNAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C94EF42099B1CA00E1E868 /* KGNAutoLayout.swift */; };
+		28C94EF72099B39300E1E868 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C94EF62099B39300E1E868 /* Globals.swift */; };
+		28C94EFA2099BA6200E1E868 /* SDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C94EF92099BA6200E1E868 /* SDragView.swift */; };
+		28C94F042099BCE200E1E868 /* Apercu Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28C94EFB2099BCE200E1E868 /* Apercu Medium.otf */; };
+		28C94F052099BCE200E1E868 /* Apercu Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28C94EFC2099BCE200E1E868 /* Apercu Bold Italic.otf */; };
+		28C94F062099BCE200E1E868 /* Apercu Mono.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28C94EFD2099BCE200E1E868 /* Apercu Mono.otf */; };
+		28C94F072099BCE200E1E868 /* Apercu_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28C94EFE2099BCE200E1E868 /* Apercu_Regular.otf */; };
+		28C94F082099BCE200E1E868 /* Apercu Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28C94EFF2099BCE200E1E868 /* Apercu Bold.otf */; };
+		28C94F092099BCE200E1E868 /* Apercu Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28C94F002099BCE200E1E868 /* Apercu Light.otf */; };
+		28C94F0A2099BCE200E1E868 /* Apercu Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28C94F012099BCE200E1E868 /* Apercu Medium Italic.otf */; };
+		28C94F0B2099BCE200E1E868 /* Apercu Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28C94F022099BCE200E1E868 /* Apercu Italic.otf */; };
+		28C94F0C2099BCE200E1E868 /* Apercu Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 28C94F032099BCE200E1E868 /* Apercu Light Italic.otf */; };
+		28C94F0F2099DDFC00E1E868 /* PhotoCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C94F0E2099DDFC00E1E868 /* PhotoCaptureViewController.swift */; };
+		619B207D939C2C454E333EFF /* Pods_ARFaceDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1FE21200ADD8CD9C19779A /* Pods_ARFaceDetection.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01C83FC26F265D0542604641 /* Pods-ARFaceDetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARFaceDetection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARFaceDetection/Pods-ARFaceDetection.debug.xcconfig"; sourceTree = "<group>"; };
+		0EB29E6B1FE06D6D00C0F662 /* GirlsLoveTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GirlsLoveTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB29E6E1FE06D6D00C0F662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EB29E701FE06D6D00C0F662 /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
+		0EB29E751FE06D6D00C0F662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EB29E781FE06D6D00C0F662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EB29E7A1FE06D6D00C0F662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A21A752099AA15006D7A74 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		28A4D310209A0D1C005FBD9F /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = ../../../Desktop/arkitFaceDetectionDemo/ARFaceDetection/IntroViewController.swift; sourceTree = "<group>"; };
+		28C94EF42099B1CA00E1E868 /* KGNAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGNAutoLayout.swift; sourceTree = "<group>"; };
+		28C94EF62099B39300E1E868 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		28C94EF92099BA6200E1E868 /* SDragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDragView.swift; sourceTree = "<group>"; };
+		28C94EFB2099BCE200E1E868 /* Apercu Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Medium.otf"; sourceTree = "<group>"; };
+		28C94EFC2099BCE200E1E868 /* Apercu Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Bold Italic.otf"; sourceTree = "<group>"; };
+		28C94EFD2099BCE200E1E868 /* Apercu Mono.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Mono.otf"; sourceTree = "<group>"; };
+		28C94EFE2099BCE200E1E868 /* Apercu_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apercu_Regular.otf; sourceTree = "<group>"; };
+		28C94EFF2099BCE200E1E868 /* Apercu Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Bold.otf"; sourceTree = "<group>"; };
+		28C94F002099BCE200E1E868 /* Apercu Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Light.otf"; sourceTree = "<group>"; };
+		28C94F012099BCE200E1E868 /* Apercu Medium Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Medium Italic.otf"; sourceTree = "<group>"; };
+		28C94F022099BCE200E1E868 /* Apercu Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Italic.otf"; sourceTree = "<group>"; };
+		28C94F032099BCE200E1E868 /* Apercu Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu Light Italic.otf"; sourceTree = "<group>"; };
+		28C94F0E2099DDFC00E1E868 /* PhotoCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureViewController.swift; sourceTree = "<group>"; };
+		2BCF227F88BC9E8E18DD1E0D /* Pods-ARFaceDetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARFaceDetection.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARFaceDetection/Pods-ARFaceDetection.release.xcconfig"; sourceTree = "<group>"; };
+		BE1FE21200ADD8CD9C19779A /* Pods_ARFaceDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARFaceDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EB29E681FE06D6D00C0F662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619B207D939C2C454E333EFF /* Pods_ARFaceDetection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB29E621FE06D6D00C0F662 = {
+			isa = PBXGroup;
+			children = (
+				0EB29E6D1FE06D6D00C0F662 /* ARFaceDetection */,
+				0EB29E6C1FE06D6D00C0F662 /* Products */,
+				BD0D3B38AB6621801B68C5DA /* Pods */,
+				7C5ADAD2EE1C468F88BF08A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0EB29E6C1FE06D6D00C0F662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EB29E6B1FE06D6D00C0F662 /* GirlsLoveTravel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EB29E6D1FE06D6D00C0F662 /* ARFaceDetection */ = {
+			isa = PBXGroup;
+			children = (
+				28C94F0D2099BCE600E1E868 /* Fonts */,
+				28C94EF82099B87600E1E868 /* View */,
+				0EB29E6E1FE06D6D00C0F662 /* AppDelegate.swift */,
+				28A4D310209A0D1C005FBD9F /* IntroViewController.swift */,
+				28A21A752099AA15006D7A74 /* MapViewController.swift */,
+				28C94EF62099B39300E1E868 /* Globals.swift */,
+				0EB29E701FE06D6D00C0F662 /* FaceDetectionViewController.swift */,
+				28C94F0E2099DDFC00E1E868 /* PhotoCaptureViewController.swift */,
+				0EB29E751FE06D6D00C0F662 /* Assets.xcassets */,
+				0EB29E771FE06D6D00C0F662 /* LaunchScreen.storyboard */,
+				0EB29E7A1FE06D6D00C0F662 /* Info.plist */,
+			);
+			path = ARFaceDetection;
+			sourceTree = "<group>";
+		};
+		28C94EF82099B87600E1E868 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28C94EF92099BA6200E1E868 /* SDragView.swift */,
+				28C94EF42099B1CA00E1E868 /* KGNAutoLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28C94F0D2099BCE600E1E868 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				28C94EFC2099BCE200E1E868 /* Apercu Bold Italic.otf */,
+				28C94EFF2099BCE200E1E868 /* Apercu Bold.otf */,
+				28C94F022099BCE200E1E868 /* Apercu Italic.otf */,
+				28C94F032099BCE200E1E868 /* Apercu Light Italic.otf */,
+				28C94F002099BCE200E1E868 /* Apercu Light.otf */,
+				28C94F012099BCE200E1E868 /* Apercu Medium Italic.otf */,
+				28C94EFB2099BCE200E1E868 /* Apercu Medium.otf */,
+				28C94EFD2099BCE200E1E868 /* Apercu Mono.otf */,
+				28C94EFE2099BCE200E1E868 /* Apercu_Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7C5ADAD2EE1C468F88BF08A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE1FE21200ADD8CD9C19779A /* Pods_ARFaceDetection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD0D3B38AB6621801B68C5DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01C83FC26F265D0542604641 /* Pods-ARFaceDetection.debug.xcconfig */,
+				2BCF227F88BC9E8E18DD1E0D /* Pods-ARFaceDetection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EB29E6A1FE06D6D00C0F662 /* GirlsLoveTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EB29E7D1FE06D6D00C0F662 /* Build configuration list for PBXNativeTarget "GirlsLoveTravel" */;
+			buildPhases = (
+				276AEE9E13A4B23478E1EEDE /* [CP] Check Pods Manifest.lock */,
+				0EB29E671FE06D6D00C0F662 /* Sources */,
+				0EB29E681FE06D6D00C0F662 /* Frameworks */,
+				0EB29E691FE06D6D00C0F662 /* Resources */,
+				D782F77FAEDF943DA4D9240F /* [CP] Embed Pods Frameworks */,
+				BED415FB0FC2989DC1FB8141 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GirlsLoveTravel;
+			productName = ARFaceDetection;
+			productReference = 0EB29E6B1FE06D6D00C0F662 /* GirlsLoveTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EB29E631FE06D6D00C0F662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Yanniki;
+				TargetAttributes = {
+					0EB29E6A1FE06D6D00C0F662 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0EB29E661FE06D6D00C0F662 /* Build configuration list for PBXProject "GirlsLoveTravel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EB29E621FE06D6D00C0F662;
+			productRefGroup = 0EB29E6C1FE06D6D00C0F662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EB29E6A1FE06D6D00C0F662 /* GirlsLoveTravel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EB29E691FE06D6D00C0F662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C94F0C2099BCE200E1E868 /* Apercu Light Italic.otf in Resources */,
+				28C94F082099BCE200E1E868 /* Apercu Bold.otf in Resources */,
+				28C94F052099BCE200E1E868 /* Apercu Bold Italic.otf in Resources */,
+				28C94F062099BCE200E1E868 /* Apercu Mono.otf in Resources */,
+				28C94F072099BCE200E1E868 /* Apercu_Regular.otf in Resources */,
+				0EB29E791FE06D6D00C0F662 /* LaunchScreen.storyboard in Resources */,
+				0EB29E761FE06D6D00C0F662 /* Assets.xcassets in Resources */,
+				28C94F0A2099BCE200E1E868 /* Apercu Medium Italic.otf in Resources */,
+				28C94F042099BCE200E1E868 /* Apercu Medium.otf in Resources */,
+				28C94F0B2099BCE200E1E868 /* Apercu Italic.otf in Resources */,
+				28C94F092099BCE200E1E868 /* Apercu Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		276AEE9E13A4B23478E1EEDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARFaceDetection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BED415FB0FC2989DC1FB8141 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARFaceDetection/Pods-ARFaceDetection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D782F77FAEDF943DA4D9240F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARFaceDetection/Pods-ARFaceDetection-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARFaceDetection/Pods-ARFaceDetection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EB29E671FE06D6D00C0F662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A4D311209A0D1C005FBD9F /* IntroViewController.swift in Sources */,
+				28C94EF72099B39300E1E868 /* Globals.swift in Sources */,
+				0EB29E711FE06D6D00C0F662 /* FaceDetectionViewController.swift in Sources */,
+				28C94F0F2099DDFC00E1E868 /* PhotoCaptureViewController.swift in Sources */,
+				28C94EFA2099BA6200E1E868 /* SDragView.swift in Sources */,
+				28C94EF52099B1CA00E1E868 /* KGNAutoLayout.swift in Sources */,
+				0EB29E6F1FE06D6D00C0F662 /* AppDelegate.swift in Sources */,
+				28A21A762099AA15006D7A74 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EB29E771FE06D6D00C0F662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EB29E781FE06D6D00C0F662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EB29E7B1FE06D6D00C0F662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EB29E7C1FE06D6D00C0F662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EB29E7E1FE06D6D00C0F662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C83FC26F265D0542604641 /* Pods-ARFaceDetection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM659CVM6Q;
+				INFOPLIST_FILE = ARFaceDetection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevenschmatz.ARKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0EB29E7F1FE06D6D00C0F662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BCF227F88BC9E8E18DD1E0D /* Pods-ARFaceDetection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM659CVM6Q;
+				INFOPLIST_FILE = ARFaceDetection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevenschmatz.ARKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EB29E661FE06D6D00C0F662 /* Build configuration list for PBXProject "GirlsLoveTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB29E7B1FE06D6D00C0F662 /* Debug */,
+				0EB29E7C1FE06D6D00C0F662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EB29E7D1FE06D6D00C0F662 /* Build configuration list for PBXNativeTarget "GirlsLoveTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB29E7E1FE06D6D00C0F662 /* Debug */,
+				0EB29E7F1FE06D6D00C0F662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EB29E631FE06D6D00C0F662 /* Project object */;
+}
