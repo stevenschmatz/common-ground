@@ -1,5 +1,7 @@
 # Girls Love Travel
 
+![](https://raw.githubusercontent.com/dwyl/repo-badges/master/highresPNGs/build-passing.png)
+
 [DevPost link :)](https://devpost.com/software/girls-love-travel)
 
 This app was made for the [Girls LOVE Travel](https://girlslovetravel.org/) community at the [F8 Hackathon](https://f8hackathon.splashthat.com/). 
