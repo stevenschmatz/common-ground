@@ -10,6 +10,4 @@ Traveling to new places can often be daunting to push yourself to meet others of
 
 Connecting travelers offline by using a system of supporting others in the community of making group-based selfies, as well as photos of places and things to see around the world. Using local expertise to help find things for new explorers to find and do. 
 
-<center>
-<img src="img/demo.jpeg" style="max-width: 100px; width: 100px"/>
-</center>
+![](img/demo.jpeg | width=100)
